@@ -1,0 +1,2 @@
+iptables -A OUTPUT -p udp --dport 9993 -j ACCEPT
+iptables -A OUTPUT -p udp --dport 62044 -j ACCEPT
