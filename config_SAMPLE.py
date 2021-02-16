@@ -9,7 +9,7 @@ EMPTY_MASTERS   = False                          # Display Enable (True) or DISA
 HBLINK_IP       = '127.0.0.1'                    # HBlink's IP Address
 HBLINK_PORT     = 4321                           # HBlink's TCP reporting socket
 FREQUENCY       = 10                             # Frequency to push updates to web clients
-WEB_SERVER_PORT = 8080                           # Has to be above 1024 if you're not running as root
+WEB_SERVER_PORT = 80                          # Has to be above 1024 if you're not running as root
 CLIENT_TIMEOUT  = 0                              # Clients are timed out after this many seconds, 0 to disable
 
 # Theme colors
@@ -40,7 +40,7 @@ THEME_COLOR     = 'background-image: linear-gradient(to bottom, #337ab7 0%, #265
 OPB_FILTER = ""
 
 # Authorization of access to dashboard
-WEB_AUTH =  True
+WEB_AUTH =  False
 WEB_USER =  'hblink'
 WEB_PASS =  'hblink'
 
